@@ -3,6 +3,7 @@
 (* AHE-texture: To determine determine the anomalous Hall vector \[Sigma]H and the corresponding multipoles in the magnetic order space *)
 (*See https://arxiv.org/abs/2411.10147*)
 (*Rui-Chun Xiao, Anhui University, xiaoruichun@ahu.edu.cn*)
+(*Data from MagneticTB, Ref. Comput. Phys. Commun. 270, 108153 (2022)*)
 SpaceGroupData[SPNo_] := Module[{SPG, braLatt,BravType},
 SPG=<|
 1 -> <| "SGname" -> "P1", "Brav" -> "TriclinicP", "SymOperations"->{{"1",{{1,0,0},{0,1,0},{0,0,1}},{0,0,0}}}|>, 
